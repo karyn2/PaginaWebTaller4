@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admisiones</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" 
+     integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+     crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="js/bootstrap.min.js"> </script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+  
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar  " >
+      <div class="container-fluid contenedornav">
+          <div class="col-md-4 col-12">
+              <div style="text-align: center;">
+                  <img src="img/logomentes3.png" alt="" width="275px" height="180px">
+              </div>  
+          </div>
+          <div class="col-md-8 col-12">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item " >
+                          <a class="nav-link colorletrD" aria-current="page" href="Index.html"> Inicio </a>
+                          </li>
+                      <li class="nav-item">
+                      <a class="nav-link colorletrD " aria-current="page" href="nosotros.html"> Nosotros</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle colorletrD"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Nuestros Jardines
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item colorletrD" href="#">Sede Puenes</a></li>
+                          <li><a class="dropdown-item colorletrD" href="#">Sede Centro</a></li>
+                          <li><a class="dropdown-item colorletrD" href="#">Sede Mistares</a></li>
+                      </ul>
+                      </li>
+                      <li class="nav-item active">
+                      <a class="nav-link colorletrH"  aria-current="page" href="admisiones.html">Admisiones</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle colorletrD" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Procesos
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item colorletrD" href="admisiones.html">Admisiones</a></li>
+                            <li><a class="dropdown-item colorletrD" href="pqrs.html">PQRs</a></li>
+                            <li><a class="dropdown-item colorletrD" href="#">Preguntas frecuentes</a></li>
+                          </ul>
+                  </ul>
+              </div>
+          </div>
+          </div>  
+  </nav>
+  </div>
+    
+    <div style="width: 100%; margin-top: 80px;">
+        <img src="img/admisiones2.png" class="img-fluid" alt="" width="100%" >
+    </div>
+    <br><br>
+    <div class="wrapper2">
+        <form class="row g-3">
+            <strong class="centrado texto2">Déjanos tus datos para que nuestro equipo de admisiones te contacte y podamos comenzar a cumplir este sueño!</strong>
+            <br>
+            <div class="col-md-6">
+              <label class="form-label">Nombre del Acudiente <b class="requerido">*</b> </label>
+              <input type="text" class="form-control bg-light text-dark border-info" required>
+            </div>
+            <div class="col-md-6">
+              <label  class="form-label">Apellido del Acudiente <b class="requerido">*</b></label>
+              <input type="text" class="form-control bg-light text-dark border-info" required>
+            </div>
+            <div class="col-12">
+              <label for="inputEmail4" class="form-label">Correo<b class="requerido">*</b></label>
+              <input type="email" class="form-control bg-light text-dark border-info" id="inputEmail4" placeholder="juan@example.co" required>
+            </div>
+            <div class="col-12">
+                <label for="inputEmail4" class="form-label">Número de Celular<b class="requerido">*</b></label>
+                <input type="number" class="form-control bg-light text-dark border-info" id="inputEmail4" required>
+            </div>
+            <div class="col-12">
+                <label for="inputEmail4" class="form-label">Nombre del Estudiante<b class="requerido">*</b></label>
+                <input type="text" class="form-control bg-light text-dark border-info"  required >
+            </div>
+          
+            <div class="col-md-12">
+              <label class="form-label">Sede</label>
+              <select id="inputState" class="form-select bg-light text-dark border-info">
+                <option selected disabled>Seleccione</option>
+                <option>Sede Puenes Cra 7 # 23-45</option>
+                <option>Sede Centro Cra 6 # 14-20</option>
+                <option>Sede Mistares Cra 5 # 28-12</option>
+              </select>
+            </div>
+            <div class="col-md-12">
+                <label class="form-label">Nivel al que ingresa el estudiante.</label>
+                <select id="inputState" class="form-select bg-light text-dark border-info">
+                  <option selected disabled>Seleccione</option>
+                  <option>Caminadores (1 año)</option>
+                  <option>Pre-Jardín (3 años)</option>
+                  <option>Jardín (4 año)</option>
+                  <option>Transición (5 año)</option>
+                </select>
+            </div>
+            <div class="col-md-12">
+                <label class="form-label">¿Como te enteraste de Nosotros? </label>
+                <select id="inputState" class="form-select bg-light text-dark border-info">
+                  <option selected disabled>Seleccione</option>
+                  <option>Referido</option>
+                  <option>Facebook</option>
+                  <option>Instagram</option>
+                  <option>Google</option>
+                  <option>Perfil de los mejores jardines</option>
+                  <option>Otro</option>
+                </select>
+              </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input " type="checkbox" id="gridCheck" required>
+                <label class="form-check-label" for="gridCheck">
+                    Al hacer clic en Enviar, aceptas la <a href="#">Política De Protección De Datos</a>   
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn botonPincipal">Enviar</button>
+            </div>
+          </form>
+    </div>
+    <br><br><br>
+    <div class="container-fluid ">
+      <footer    class="text-center text-lg-start text-white contenedorFooter">
+        <div class="container p-4 pb-0">
+          <section class="">
+            <div class="row">
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">
+                  <b> Mentes Creativas</b> 
+                </h6>
+                <p>
+                  Nuestros pequeños son guiados por excelentes seres humanos y profesionales que periódicamente 
+                  son capacitados para brindar la mejor atención.
+                </p>
+              </div>
+    
+              <hr class="w-100 clearfix d-md-none" />
+    
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <p>
+                  <a class="text-white nav-link  textoNormal font-weight-bold " href="Index.html" > Inicio </a>
+                </p>
+                <p>
+                  <a  class="text-white nav-link  textoNormal " href="nosotros.html" > Nosotros </a>
+                </p>
+                <p>
+                  <a  class="text-white nav-link  textoNormal " href="admisiones.html" > Admisones </a>
+                </p>
+                <p>
+                  <a  class="text-white nav-link  textoNormal " href="pqrs.html" > PQRs </a>
+                </p>
+              </div>
+    
+              <hr class="w-100 clearfix d-md-none" />
+    
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">
+                  Nuestros Jardines
+                </h6>
+                <p>
+                  <a  class="text-white nav-link  textoNormal " href="#" > Sede Puenes </a>
+                </p>
+                <p>
+                  <a  class="text-white nav-link  textoNormal " href="#" > Sede Centro </a>
+                </p>
+                <p>
+                  <a  class="text-white nav-link  textoNormal " href="#" > Sede Mistares </a>
+                </p>
+  
+              </div>
+    
+              <hr class="w-100 clearfix d-md-none" />
+    
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
+                <p><i class="fas fa-home mr-3"></i> Ipiales - Nariño - Colombia</p>
+                <p><i class="fas fa-envelope mr-3"></i> mentescreativas@gmail.com</p>
+                <p><i class="fas fa-phone mr-3"></i> +57 310 784 23 31</p>
+                <p><i class="fas fa-print mr-3"></i> +57 320 345 78 90 </p>
+              </div>
+  
+            </div>
+          </section>
+    
+          <hr class="my-3">
+    
+          <section class="p-3 pt-0">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-7 col-lg-8 text-center text-md-start">
+                <div class="p-3">
+                  © 2023 Copyright:
+                  <a class="text-white" href="#"
+                     >OrangeSkys</a
+                    >
+                </div>
+              </div>
+  
+              <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                <!-- Facebook -->
+                <a
+                   class="btn btn-outline-light btn-floating m-1"
+                   class="text-white"
+                   role="button"
+                   ><i class="fab fa-facebook-f"></i
+                  ></a>
+    
+                <!-- Twitter -->
+                <a
+                   class="btn btn-outline-light btn-floating m-1"
+                   class="text-white"
+                   role="button"
+                   ><i class="fab fa-twitter"></i
+                  ></a>
+    
+                <!-- Google -->
+                <a
+                   class="btn btn-outline-light btn-floating m-1"
+                   class="text-white"
+                   role="button"
+                   ><i class="fab fa-google"></i
+                  ></a>
+    
+                <!-- Instagram -->
+                <a
+                   class="btn btn-outline-light btn-floating m-1"
+                   class="text-white"
+                   role="button"
+                   ><i class="fab fa-instagram"></i
+                  ></a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </footer>
+    </div>
+  </body>
+</body>
+
+</html>
