@@ -115,6 +115,11 @@
     color:#52595B;
     font-weight: 350;
 }
+.textoNormal2{
+    font-size: 17px;
+    color:#52595B;
+    font-weight: 350;
+}
 
 .textoCard{
     font-size: 16px;
@@ -246,5 +251,41 @@
       box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
       margin-top:45px;
   }
+  .card3 {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 10;
+    border: none;
+    margin-top:45px;
+}
   
+/*____________________________-*/
+.containerImg {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .animated-image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .animated-image:hover {
+    transform: scale(1.1);
+  }
+  
+  @keyframes scrollAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .scroll-animation {
+    animation: scrollAnimation 0.5s alternate infinite;
+  }
   
